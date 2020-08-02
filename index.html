@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Practice 🏋️‍♂️</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- For navigation practice -->
+    <link rel="stylesheet" href="css/nav.css" />
+
+    <!-- For tooltip practice -->
+    <link rel="stylesheet" href="css/tooltip.css" />
+
+    <!-- For modal practice -->
+    <link rel="stylesheet" href="css/modal.css" />
+
+    <!-- For future
+   accordion
+        https://www.w3schools.com/howto/howto_js_accordion.asp
+    Sidenav
+        https://www.w3schools.com/howto/howto_js_sidenav.asp
+    Progress Bars
+        https://www.w3schools.com/howto/howto_js_progressbar.asp
+    Snackbars/Toast
+        https://www.w3schools.com/howto/howto_js_snackbar.asp
+    Draw on scroll
+        https://www.w3schools.com/howto/howto_js_scrolldrawing.asp
+    
+    -->
+  </head>
+  <body>
+    <div class="content">
+      <h1 class="title">CSS Practice 🏋️‍♂️</h1>
+
+      <div class="filler">
+        <h2>Exercise</h2>
+        <h3>Make a drop down navigation using the below html</h3>
+      </div>
+      <nav>
+        <ul class="navigation">
+          <li>Home</li>
+          <li>About</li>
+          <li class="dropdown">
+            Services
+            <ul class="drop-menu">
+              <li>Potatoes</li>
+              <li>Penguins</li>
+              <li>Web design</li>
+            </ul>
+          </li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+
+      <div class="filler">
+        <h2>Exercise</h2>
+        <h3>Make a tooltip using the below html</h3>
+        <p>Make the tooltip appear above the message on hover</p>
+      </div>
+
+      <div class="tooltip">
+        Hover for secret message 🕵️‍♀️
+        <span class="tooltip-text">I don't know what I'm doing</span>
+      </div>
+
+      <div class="filler">
+        <h2>Exercise</h2>
+        <h3>Modal Practice</h3>
+        <p>Make a modal appear upon a button click</p>
+      </div>
+
+      <button class="modal-button">Open Modal</button>
+      <div class="modal-example">
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+
+            <div class="info">
+              <h2 class="title">Hello friend...</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                at harum corporis laudantium, eius quisquam id itaque voluptates
+                quae saepe sequi iusto quod velit in exercitationem eveniet sit
+                autem, dolores magni fugiat illum. Qui ea tempore repudiandae
+                porro blanditiis, fuga nostrum corporis quibusdam saepe sequi
+                eum aut sunt dolor laborum accusamus perspiciatis nam voluptates
+                autem. Ullam molestiae obcaecati amet modi similique nostrum sed
+                consequuntur expedita dolor voluptate a excepturi dolores in
+                earum consequatur veniam praesentium, sunt impedit id, incidunt
+                aperiam laboriosam reiciendis quasi. Obcaecati molestias eos
+                facere sit. Aliquam, distinctio!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>No copyrigh &copy 2020</footer>
+
+      <!-- End of container -->
+    </div>
+    <script src="code.js"></script>
+  </body>
+</html>

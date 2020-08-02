@@ -1,0 +1,86 @@
+// Drop down navigation practice
+// Use flexbox and absolute position with hover to create a dropdown
+
+nav {
+  margin: 1rem;
+  background-color: white;
+  height: 10vh;
+
+  .navigation {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .drop-menu {
+    background-color: white;
+    li {
+      margin: 1rem;
+    }
+  }
+
+  //Edit the below code
+  // /*
+  .dropdown {
+    position: relative;
+    padding: 1rem;
+
+    &:hover .drop-menu {
+      display: block;
+    }
+
+    .drop-menu {
+      margin: 1rem;
+      left: -10px;
+      padding: 1rem;
+      position: absolute;
+      display: none;
+    }
+  }
+  // */
+
+  /* Having trouble, below the answers!!!!!!!
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  */
+
+  // /******The answer for Dropdown
+  /*
+  .dropdown {
+    &:hover .drop-menu {
+      display: block;
+    }
+
+    .drop-menu {
+      position: absolute;
+      background-color: white;
+      display: none;
+
+      li {
+        margin: 1rem;
+      }
+    }
+  }
+
+  // */
+}

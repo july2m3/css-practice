@@ -1,0 +1,56 @@
+// @import "./nav.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// body {
+//   min-height: 100%;
+// }
+
+body {
+  font-size: 16px;
+  font-family: helvetica;
+  background-image: linear-gradient(
+    to right,
+    rgb(42, 187, 42),
+    rgb(0, 234, 255)
+  );
+}
+
+.content {
+  min-height: 100vh;
+  padding-bottom: 100px;
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+
+  .title {
+    text-align: center;
+    color: black;
+    margin: 1rem;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+.filler {
+  margin: 40px;
+  height: 10vh;
+}
+
+footer {
+  height: 100px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
