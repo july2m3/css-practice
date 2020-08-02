@@ -5,7 +5,7 @@
 
 .tooltip .tooltip-text {
   background-color: rgba(12, 11, 11, 0.2);
-  color: whitesmoke;
+  color: #f9f9f9;
   border-radius: 20px;
   padding: 1rem;
 }
