@@ -11,13 +11,27 @@
 // }
 
 body {
-  font-size: 16px;
+  font-size: 0.625%;
+  line-height: 1.5;
   font-family: helvetica;
   background-image: linear-gradient(
     to right,
     rgb(42, 187, 42),
     rgb(0, 234, 255)
   );
+}
+
+h1,
+h2,
+h3 {
+  font-size: 1.6rem;
+}
+
+li,
+a,
+p,
+div {
+  font-size: 1.2rem;
 }
 
 .content {
