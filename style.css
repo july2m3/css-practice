@@ -1,0 +1,258 @@
+/* line 1, scss/base/_style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 7, scss/base/_style.scss */
+body {
+  font-size: 0.625%;
+  line-height: 1.5;
+  font-family: helvetica;
+  background-color: #f9f9f9;
+  color: #333; }
+
+/* line 15, scss/base/_style.scss */
+h1,
+h2,
+h3 {
+  font-size: 1.6rem; }
+
+/* line 21, scss/base/_style.scss */
+li,
+a,
+p,
+div {
+  font-size: 1.2rem; }
+
+/* line 28, scss/base/_style.scss */
+.content {
+  min-height: 100vh;
+  padding-bottom: 100px;
+  margin: 0 auto;
+  position: relative;
+  width: 80%; }
+  /* line 35, scss/base/_style.scss */
+  .content .title {
+    text-align: center;
+    color: black;
+    margin: 1rem; }
+
+/* line 42, scss/base/_style.scss */
+ul {
+  list-style: none; }
+
+/* line 46, scss/base/_style.scss */
+.filler {
+  margin: 40px;
+  height: 10vh; }
+
+/* line 51, scss/base/_style.scss */
+footer {
+  height: 100px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem; }
+
+/* line 1, scss/modal/_modal.scss */
+.modal-button {
+  padding: 1rem 2rem;
+  background-color: #29d5f3;
+  color: white;
+  border-radius: 1rem; }
+
+/* line 12, scss/modal/_modal.scss */
+.modal {
+  display: none;
+  position: absolute;
+  top: 10%;
+  z-index: 1;
+  height: 80vh;
+  border: 2px solid black;
+  background-color: white; }
+  /* line 22, scss/modal/_modal.scss */
+  .modal .info {
+    width: 70%;
+    margin: 0 auto; }
+    /* line 25, scss/modal/_modal.scss */
+    .modal .info .title {
+      text-align: center; }
+  /* line 30, scss/modal/_modal.scss */
+  .modal .close {
+    font-size: 2rem;
+    margin-left: 1rem; }
+
+/* line 4, scss/nav/_nav.scss */
+nav {
+  margin: 1rem;
+  background-color: white;
+  height: 10vh;
+  /* Having trouble, below the answers!!!!!!!
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  */
+  /*
+  .dropdown {
+    &:hover .drop-menu {
+      display: block;
+    }
+
+    .drop-menu {
+      position: absolute;
+      background-color: white;
+      display: none;
+
+      li {
+        margin: 1rem;
+      }
+    }
+  }
+
+  // */ }
+  /* line 9, scss/nav/_nav.scss */
+  nav .navigation {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+  /* line 16, scss/nav/_nav.scss */
+  nav .drop-menu {
+    background-color: white; }
+    /* line 18, scss/nav/_nav.scss */
+    nav .drop-menu li {
+      margin: 1rem; }
+  /* line 25, scss/nav/_nav.scss */
+  nav .dropdown {
+    position: relative;
+    padding: 1rem; }
+    /* line 29, scss/nav/_nav.scss */
+    nav .dropdown:hover .drop-menu {
+      display: block; }
+    /* line 33, scss/nav/_nav.scss */
+    nav .dropdown .drop-menu {
+      margin: 1rem;
+      left: -10px;
+      padding: 1rem;
+      position: absolute;
+      display: none; }
+
+/* line 1, scss/tooltip/_tooltip.scss */
+.tooltip {
+  margin-top: 100px;
+  position: relative; }
+  /* line 5, scss/tooltip/_tooltip.scss */
+  .tooltip .tooltip-text {
+    background-color: rgba(12, 11, 11, 0.2);
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 1rem; }
+
+/*
+.tooltip {
+
+
+  .tooltip-text {
+  }
+}
+*/
+/*
+.tooltip {
+  position: relative;
+  &:hover .tooltip-text {
+    display: block;
+  }
+}
+
+.tooltip-text {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+}
+
+*/
+/* line 1, scss/negative-margins/_negative-margins.scss */
+.negative-margin-top {
+  margin-top: 4rem;
+  height: 50vh;
+  background-color: white;
+  position: relative;
+  padding-bottom: 10vh;
+  z-index: 1; }
+  /* line 9, scss/negative-margins/_negative-margins.scss */
+  .negative-margin-top header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    /* line 17, scss/negative-margins/_negative-margins.scss */
+    .negative-margin-top header > * {
+      display: inline-block;
+      width: 66%;
+      margin-left: 1rem; }
+    /* line 23, scss/negative-margins/_negative-margins.scss */
+    .negative-margin-top header h2 {
+      font-size: 1.2rem; }
+    /* line 26, scss/negative-margins/_negative-margins.scss */
+    .negative-margin-top header p {
+      font-size: 1rem; }
+    /* line 30, scss/negative-margins/_negative-margins.scss */
+    .negative-margin-top header button {
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      border: none;
+      background-color: #d65c7a;
+      color: white; }
+  /* line 39, scss/negative-margins/_negative-margins.scss */
+  .negative-margin-top img {
+    object-fit: cover;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0; }
+
+/* line 48, scss/negative-margins/_negative-margins.scss */
+.negative-margin-bottom {
+  height: 30vh;
+  margin-top: -15vh;
+  margin-left: 1rem;
+  z-index: 6;
+  position: relative;
+  background-color: red;
+  width: 66%; }
+  /* line 57, scss/negative-margins/_negative-margins.scss */
+  .negative-margin-bottom .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    /* line 63, scss/negative-margins/_negative-margins.scss */
+    .negative-margin-bottom .container > * {
+      margin: 1rem;
+      height: 10rem;
+      width: 5em;
+      background-color: rgba(0, 0, 0, 0.2); }

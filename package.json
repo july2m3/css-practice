@@ -1,0 +1,25 @@
+{
+  "name": "css-practice",
+  "version": "1.0.0",
+  "description": "Short CSS exercises.",
+  "main": "code.js",
+  "scripts": {
+    "dev": "concurrently \"node-sass main.scss style.css -watch \" \"lite-server index.html\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/july2m3/css-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/july2m3/css-practice/issues"
+  },
+  "homepage": "https://github.com/july2m3/css-practice#readme",
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.14.1"
+  }
+}
